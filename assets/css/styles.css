@@ -309,6 +309,9 @@ img {
 .skills__ux {
   width: 85%;
 }
+.skills__fm {
+  width: 80%;
+}
 .skills__ai {
   width: 69%;
 }
@@ -503,4 +506,15 @@ img {
   background-repeat: no-repeat no-repeat;
   background-position: center center;
   background-color: rgb(0, 0, 0);
+}
+
+.btn-contact > p {
+  color: rgb(99, 99, 255);
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.btn-contact:hover > p {
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
